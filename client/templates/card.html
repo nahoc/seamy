@@ -1,0 +1,26 @@
+<template name="card">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <img src="images/{{ image }}" alt="Image" />
+        <div class="button-wrapper is-verticallycentered">
+          <button value="{{ image }}" class="button is-light">Preview</button>
+        </div>
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="content">
+        <h5>{{ name }}</h5>
+        <a>#css</a> <a>#responsive</a>
+        <!--<small>11:09 PM - 1 Jan 2016</small>-->
+        <br><br>
+        <a class="button is-primary" href="images/{{ image }}" download>
+              <span class="icon">
+                <i class="fa fa-download"></i>
+              </span>
+              <span>Download</span>
+            </a>
+      </div>
+    </div>
+  </div>
+</template>
