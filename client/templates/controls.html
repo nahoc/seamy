@@ -1,19 +1,17 @@
 <template name="controls">
-  <form onsubmit="return false;" class="columns" action="">
+  <div class="columns">
     <div class="column is-11">
       <div class="field">
         <div class="control">
           <div class="control has-icons-left">
-            <input class="input" type="text" placeholder="Search" value="">
+            <input class="input" name="search" type="text" placeholder="Search" value="">
             <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
           </div>
         </div>
       </div>
     </div>
-    <div class="column"> <button class="button">
-    <span class="icon is-small">
-      <i class="fa fa-th"></i>
-    </span>
-  </button></div>
-  </form>
+    <div class="column"> 
+      <button class="button"><span class="icon is-small"><i class="fa fa-th"></i></span></button>
+    </div>
+  </div>
 </template>

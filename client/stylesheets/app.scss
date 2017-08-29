@@ -1,3 +1,9 @@
+html {
+  transition: all ease-in-out 0.13s;
+  background-repeat: repeat;
+  background-size: 33.333333%;
+}
+
 .image {
   text-align: center;
   &:hover .button-wrapper {
@@ -5,12 +11,40 @@
   }
 }
 
+.is-760 {
+  max-width: 760px!important;
+}
+
+.is-700 {
+  max-width: 700px!important;
+}
+
+.navbar {
+  position: absolute!important;
+  background: transparent!important;
+  margin: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
 .is-wrap {
   flex-wrap: wrap;
 }
 
 .is-lightgreen {
-  background-image: linear-gradient(141deg,#00BCA0 0,#00d1b2 100%)!important;
+  background-image: linear-gradient(141deg, #00BCA0 0, #00d1b2 100%)!important;
+}
+
+.tags {
+  margin-top: -3px;
+}
+
+.is-white {
+  background: #ffffff;
+  padding: 30px;
 }
 
 .button-wrapper {
@@ -30,4 +64,8 @@
   .pattern_#{$i} {
     background-image: url($imageURL);
   }
+}
+
+.pattern_1 {
+  background-image: url('images/pattern_1.svg');
 }

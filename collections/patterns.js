@@ -3,15 +3,19 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
 Patterns = new Mongo.Collection('Patterns');
 
+if ( Meteor.isServer ) {
+  Patterns._ensureIndex( { name: 1, image: 1 } );
+}
+
 Patterns.allow({
   insert: () => false,
-  update: () => true,
+  update: () => false,
   remove: () => false,
 });
 
 Patterns.deny({
   insert: () => true,
-  update: () => false,
+  update: () => true,
   remove: () => true,
 });
 

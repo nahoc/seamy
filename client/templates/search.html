@@ -1,0 +1,19 @@
+<template name="search">
+  {{ >controls }} 
+    <div class="columns is-desktop is-wrap">
+
+  {{#if searching}} 
+    {{> loading}} 
+  {{else}} 
+  {{#each patterns}}
+  <div class="column is-6">
+    {{ >card }}
+  </div>
+  {{else}}
+  <div class="column">
+    <p class="alert alert-warning">Nothing found for {{query}}.</p>
+  </div>
+  {{/each}} 
+  {{/if}}
+  </div>
+</template>

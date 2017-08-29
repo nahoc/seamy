@@ -1,15 +1,15 @@
 import { Meteor } from 'meteor/meteor';
 
 Meteor.startup(function () {
-    Meteor.subscribe('patterns');
+    //Meteor.subscribe('patterns');
 });
 
 Template.body.helpers({
-    patterns() {
+    /*patterns() {
         let patterns = Patterns.find();
 
         if (patterns) {
             return patterns;
         }
-    }
+    }*/
 });
