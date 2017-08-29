@@ -29,7 +29,7 @@ Template.search.helpers({
 });
 
 Template.search.events({
-  'keyup [name="search"]' ( event, template ) {
+  'keyup [name="search"], focus [name="search"]' ( event, template ) {
     let value = event.target.value.trim();
 
     if ( value !== '' && value.length > 2 ) {

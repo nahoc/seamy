@@ -2,9 +2,13 @@ Template.card.events({
     'click button': function (event, template) {
         var html = $('html');
         var newBg = event.target.value;
-        // We remove all the classes on HTML
-        html.removeClass();
         // We then add the new background class
-        html.addClass(newBg.substring(0, newBg.indexOf('.')));
+        html.toggleClass(newBg.substring(0, newBg.indexOf('.')));
+        // We then change the button text to be "stop preview"
+        if (event.target.innerHTML == "Preview") {
+            event.target.innerHTML = "Stop preview";
+        } else {
+            event.target.innerHTML = "Preview";
+        }
     }
 });

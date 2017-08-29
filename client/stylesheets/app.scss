@@ -60,12 +60,12 @@ html {
 }
 
 @for $i from 1 through 5 {
-  $imageURL: 'images/pattern_' + $i + '.jpg';
+  $imageURL: 'images/pattern_' + $i + '.svg';
   .pattern_#{$i} {
     background-image: url($imageURL);
   }
 }
 
-.pattern_1 {
-  background-image: url('images/pattern_1.svg');
+.is-reset {
+  background-image: none;
 }
