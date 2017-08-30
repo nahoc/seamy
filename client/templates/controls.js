@@ -1,9 +1,9 @@
 Template.controls.onRendered(function () {
   $("#colorpickerFront").spectrum({
-    color: "#000",
+    color: "#00d1b2",
     showInitial: true,
     showInput: true,
-    className: "is-pulled-left full-spectrum is-colorpicker",
+    className: "is-pulled-right full-spectrum is-colorpicker",
     preferredFormat: "hex",
     move: function (color) {
       $('.st0').css({ fill: color.toRgbString() });
@@ -41,10 +41,10 @@ Template.controls.onRendered(function () {
     ]
   });
   $("#colorpickerBack").spectrum({
-    color: "#000",
+    color: "#FFFFFF",
     showInitial: true,
     showInput: true,
-    className: "is-pulled-left full-spectrum is-colorpicker",
+    className: "is-pulled-right full-spectrum is-colorpicker",
     preferredFormat: "hex",
     move: function (color) {
       $('.st1').css({ fill: color.toRgbString() });

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BA8686;}
+	.st1{fill:#5A5A5A;}
+</style>
+<rect class="st0" width="180" height="180"/>
+<g>
+	<path class="st1" d="M16.9,163.5l-0.5-0.5h-0.6H0v2.4l5.6,5.6H0v2h6.6l-2.3,7h2.1l2.3-7h12.9l-7,7h2.8l8-8l-1.2-1.2L16.9,163.5z
+		 M8,170.6L2.4,165h11.2L8,170.6z M10.4,171l5.6-5.6l5.6,5.6H10.4z"/>
+	<path class="st1" d="M90,176c-2.2,0-4,1.8-4,4h8C94,177.8,92.2,176,90,176z"/>
+	<rect x="42.3" y="19.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -17.9483 43.331)" class="st1" width="2" height="48"/>
+	<rect x="19.3" y="135.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -83.9497 70.6718)" class="st1" width="48" height="2"/>
+	<path class="st1" d="M90,4c2.2,0,4-1.8,4-4h-8C86,2.2,87.8,4,90,4z"/>
+	<polygon class="st1" points="17.4,0 14.6,0 2.3,12.3 6.4,0 4.3,0 0,12.8 0,17.4 0.7,16.7 	"/>
+	<path class="st1" d="M4,89c0-2.2-1.8-4-4-4v8C2.2,93,4,91.2,4,89z"/>
+	<path class="st1" d="M106.9,78.5l-0.5-0.5h-0.6H75.2h-1.6l-7.8,7.8L64.6,87L90,112.4l0.7-0.7L115.4,87l-1.2-1.2L106.9,78.5z
+		 M103.6,80L98,85.6L92.4,80H103.6z M95.6,86H84.4l5.6-5.6L95.6,86z M87.6,80L82,85.6L76.4,80H87.6z M74,80.4l5.6,5.6H68.4L74,80.4z
+		 M68.4,88h12.9l6.4,19.3L68.4,88z M90,107.8L83.4,88h13.2L90,107.8z M92.3,107.3L98.7,88h12.9L92.3,107.3z M100.4,86l5.6-5.6
+		l5.6,5.6H100.4z"/>
+	<path class="st1" d="M176,89c0,2.2,1.8,4,4,4v-8C177.8,85,176,86.8,176,89z"/>
+	
+		<rect x="135.7" y="112.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -56.6102 136.6691)" class="st1" width="2" height="48"/>
+	<rect x="112.7" y="42.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 9.3898 109.331)" class="st1" width="48" height="2"/>
+	<path class="st1" d="M163.6,163l-7.8,7.8l-1.2,1.2l8,8h2.8l-7-7h12.9l2.3,7h2.1l-2.3-7h6.6v-2h-5.6l5.6-5.6V163h-14.8H163.6z
+		 M158.4,171l5.6-5.6l5.6,5.6H158.4z M177.6,165l-5.6,5.6l-5.6-5.6H177.6z"/>
+	<polygon class="st1" points="175.7,0 173.6,0 177.7,12.3 165.4,0 162.6,0 180,17.4 180,12.8 	"/>
+</g>
+</svg>
