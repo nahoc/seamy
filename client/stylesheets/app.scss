@@ -11,6 +11,11 @@ html {
   }
 }
 
+.svg-crowbar {
+  background: transparent!important;
+  pointer-events: none;
+}
+
 svg {
   margin: -1px;
 }

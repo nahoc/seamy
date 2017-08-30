@@ -7,18 +7,22 @@
         {{{ code }}}
         <!--<img src="images/{{ image }}" alt="Image" />-->
         <div class="button-wrapper is-verticallycentered">
-          <button value="{{ image }}" class="button is-light">Preview</button>
+          <button value="" class="button is-light is-preview">Preview</button>
         </div>
       <!--</figure>-->
     </div>
     <div class="card-content">
       <div class="content">
-        <h5 class="is-pulled-left">{{ name }}</h5>
-        <div class="tags is-pulled-right"><a>#css</a>&nbsp;<a>#responsive</a></div>
+        <h5>{{ name }}</h5>
+        <div class="tags">
+          {{#each tags}}
+            <a class="is-tag">#{{this}}&nbsp;</a>
+          {{/each}}
+        </div>
         <!--<a>#css</a> <a>#responsive</a>-->
         <!--<small>11:09 PM - 1 Jan 2016</small>-->
         <!--<br><br>-->
-        <a class="button is-primary" href="images/{{ image }}" download>
+        <a class="button is-primary is-download" href="#" download>
               <span class="icon">
                 <i class="fa fa-download"></i>
               </span>

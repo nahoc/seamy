@@ -30,7 +30,11 @@ PatternsSchema = new SimpleSchema({
   },
   tags: {
     type: Array,
-    label: 'The tags of a pattern.',
+    optional: true,
+  },
+  'tags.$': {
+    type: String,
+    label: 'The name of the tag of a pattern.',
   },
   code: {
     type: String,
