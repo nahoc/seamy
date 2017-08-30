@@ -1,10 +1,10 @@
 import { Mongo } from 'meteor/mongo';
-import { SimpleSchema } from 'meteor/aldeed:simple-schema';
+import SimpleSchema from 'simpl-schema';
 
 Patterns = new Mongo.Collection('Patterns');
 
 if ( Meteor.isServer ) {
-  Patterns._ensureIndex( { name: 1, image: 1 } );
+  Patterns._ensureIndex( { name: 1, image: 1, tags: 1, } );
 }
 
 Patterns.allow({
@@ -28,6 +28,14 @@ PatternsSchema = new SimpleSchema({
     type: String,
     label: 'The image URL.',
   },
+  tags: {
+    type: Array,
+    label: 'The tags of a pattern.',
+  },
+  code: {
+    type: String,
+    label: 'The SVG code of a pattern.',
+  }
 });
 
 Patterns.attachSchema(PatternsSchema);

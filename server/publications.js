@@ -23,6 +23,9 @@ if (Meteor.isServer) {
           {
             image: regex
           },
+          {
+            tags: regex
+          }
         ]
       };
 

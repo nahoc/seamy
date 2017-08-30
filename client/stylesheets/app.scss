@@ -4,11 +4,15 @@ html {
   background-size: 33.333333%;
 }
 
-.image {
+.card-image {
   text-align: center;
   &:hover .button-wrapper {
     opacity: 1;
   }
+}
+
+.sp-button-container {
+  display: none;
 }
 
 .is-760 {
