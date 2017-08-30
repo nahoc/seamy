@@ -81,6 +81,8 @@ Template.controls.onRendered(function () {
       ]
     ]
   });
+  // we give the colorpicker the same look as our buttons
+  $('.sp-replacer').addClass('button');
 });
 
 Template.controls.events({

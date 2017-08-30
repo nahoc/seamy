@@ -11,6 +11,18 @@ html {
   }
 }
 
+.sp-picker-container {
+  background: #ffffff;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+}
+
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+  background-color: transparent!important;
+}
+
 .sp-button-container {
   display: none;
 }
