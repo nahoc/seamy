@@ -9,9 +9,4 @@ Meteor.startup(() => {
     prerenderio.set('protocol', 'https');
     WebApp.rawConnectHandlers.use(prerenderio);
   }*/
-
-  // global helpers
-  Template.registerHelper("SITE_NAME", function () {
-    return 'Seamy';
-  });
 });

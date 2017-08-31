@@ -1,7 +1,7 @@
 html {
   transition: all ease-in-out 0.13s;
   background-repeat: repeat;
-  background-size: 33.333333%;
+  background-size: 200px;
 }
 
 .card {
@@ -22,14 +22,6 @@ html {
 
 svg {
   margin: -1px;
-}
-
-.st0 {
-  fill: #00d1b2;
-}
-
-.st1 {
-  fill: #ffffff;
 }
 
 .sp-picker-container {
@@ -72,7 +64,7 @@ svg {
 }
 
 .is-white {
-  background: #ffffff;
+  background-color: rgba(255,255,255,0.9);
   padding: 30px;
 }
 
