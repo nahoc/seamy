@@ -4,6 +4,10 @@ html {
   background-size: 33.333333%;
 }
 
+.card {
+  height: 100%;
+}
+
 .card-image {
   text-align: center;
   &:hover .button-wrapper {
@@ -42,14 +46,6 @@ svg {
 
 .sp-button-container {
   display: none;
-}
-
-.is-760 {
-  max-width: 760px!important;
-}
-
-.is-700 {
-  max-width: 700px!important;
 }
 
 .navbar {

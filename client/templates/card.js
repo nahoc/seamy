@@ -1,13 +1,3 @@
-Template.card.onRendered(function () {
-    // SVG crowbar lib to download SVGs
-    /*var e = document.createElement('script');
-    e.setAttribute('src', 'https://nytimes.github.io/svg-crowbar/svg-crowbar.js');
-    e.setAttribute('class', 'svg-crowbar');
-    document.body.appendChild(e);*/
-    //get svg element.
-
-});
-
 Template.card.events({
     'click .is-preview': function (event, template) {
         var html = $('html');
