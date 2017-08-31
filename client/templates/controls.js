@@ -6,7 +6,9 @@ Template.controls.onRendered(function () {
     className: "is-pulled-right full-spectrum is-colorpicker",
     preferredFormat: "hex",
     move: function (color) {
-      $('.st0').css({ fill: color.toRgbString() });
+      $('.st0').css({
+        fill: color.toRgbString()
+      });
     },
     show: function () {
 
@@ -18,7 +20,9 @@ Template.controls.onRendered(function () {
 
     },
     change: function () {
-      $('.st0').css({ fill: $("#colorpickerFront").val() });
+      $('.st0').css({
+        fill: $("#colorpickerFront").val()
+      });
     },
     palette: [
       ["rgb(0, 0, 0)", "rgb(67, 67, 67)", "rgb(102, 102, 102)",
@@ -47,7 +51,9 @@ Template.controls.onRendered(function () {
     className: "is-pulled-right full-spectrum is-colorpicker",
     preferredFormat: "hex",
     move: function (color) {
-      $('.st1').css({ fill: color.toRgbString() });
+      $('.st1').css({
+        fill: color.toRgbString()
+      });
     },
     show: function () {
 
@@ -59,7 +65,9 @@ Template.controls.onRendered(function () {
 
     },
     change: function () {
-      $('.st1').css({ fill: $("#colorpickerBack").val() });
+      $('.st1').css({
+        fill: $("#colorpickerBack").val()
+      });
     },
     palette: [
       ["rgb(0, 0, 0)", "rgb(67, 67, 67)", "rgb(102, 102, 102)",
@@ -83,6 +91,9 @@ Template.controls.onRendered(function () {
   });
   // we give the colorpicker the same look as our buttons
   $('.sp-replacer').addClass('button');
+
+  // we set the thumbnail view off
+  THUMBNAIL_VIEW = false;
 });
 
 Template.controls.events({
@@ -94,5 +105,19 @@ Template.controls.events({
     e.keyCode = 13;
     $("#search").focus();
     $("#search").trigger(e);
+  },
+  'click #is-viewtoggle': function (event, template) {
+    // toggling the thumbnail view
+    if (THUMBNAIL_VIEW) {
+      $('.collection').find(".is-2").addClass("is-3").removeClass("is-2");
+      $('.tags').show();
+      $('.pattern-name').show();
+      THUMBNAIL_VIEW = false;
+    } else {
+      $('.collection').find(".is-3").addClass("is-2").removeClass("is-3");
+      $('.tags').hide();
+      $('.pattern-name').hide();
+      THUMBNAIL_VIEW = true;
+    }
   }
 });
